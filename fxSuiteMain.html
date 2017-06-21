@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/fxSuite.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Audiowide|Changa|Michroma|Monoton|Syncopate|VT323" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="col-4 left-col top-col">
+        <p>Banks</p>
+        <ul id="banks">
+            <!--<li class="activeBank">A</li>
+            <li><a href="fxSuiteBankB.html">B</a></li>
+            <li><a href="fxSuiteBankC.html">C</a></li>
+            <li><a href="fxSuiteBankD.html">D</a></li>
+            <li><a href="fxSuiteBankE.html">E</a></li>-->
+            <li class="activeBank">A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+        </ul>
+    </div>
+    <div class="col-4 middle-col top-col">
+        <h1>FXS</h1>
+        <p>FX Suite</p>
+    </div>
+    <div class="col-4 right-col top-col"></div>
+</div>
+<div class="row">
+    <div class="col-3 left-col soundPad" id="pad1">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--This div and each div in subsequent pads to be added back when better logic for colors is added-->
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/drum-and-drumsticks-top-view.svg"/>
+        </div>
+        <audio id="pad1Audio" preload="none">
+            <source src="sounds/JAY-DEE%20001.wav" type="audio/wav"/>
+        </audio>
+        <!--This div and each div in subsequent pads to be added back when better logic for colors is added-->
+        <!--<div class="colorSelection">
+            <p class="chooseColor">Choose a Color: </p>
+            <div id="color1"></div>
+            <div id="color2"></div>
+            <div id="color3"></div>
+            <div id="color4"></div>
+            <div id="color5"></div>
+            <div id="color6"></div>
+            <div id="color7"></div>
+            <div id="color8"></div>
+            <div id="color9"></div>
+            <div id="color10"></div>
+            <div id="color11"></div>
+            <div id="color12"></div>
+            <button>Change Color</button>
+        </div>-->
+    </div>
+    <div class="col-3 middle-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/accordion-side-view.svg"/>
+        </div>
+        <audio id="pad2Audio" preload="none">
+            <source src="sounds/jd%20hat.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 middle-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/classic-acoustic-guitar.svg"/>
+        </div>
+        <audio id="pad3Audio" preload="none">
+            <source src="sounds/jdzap395.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 right-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/xylophone-on-a-table-with-sticks.svg"/>
+        </div>
+        <audio id="pad4Audio" preload="none">
+            <source src="sounds/jdft202.wav" type="audio/wav"/>
+        </audio>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3 left-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/drum-of-tall-and-black-shape.svg"/>
+        </div>
+        <audio id="pad5Audio" preload="none">
+            <source src="sounds/jdft334.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 middle-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/flute.svg"/>
+        </div>
+        <audio id="pad6Audio" preload="none">
+            <source src="sounds/jdft479.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 middle-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/flute-with-huge-horn-opening.svg"/>
+        </div>
+        <audio id="pad7Audio" preload="none">
+            <source src="sounds/jdft2270.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 right-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/grand-piano.svg"/>
+        </div>
+        <audio id="pad8Audio" preload="none">
+            <source src="sounds/jdloop118.wav" type="audio/wav"/>
+        </audio>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3 left-col bot-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/saxophone-variant-silhouette.svg"/>
+        </div>
+        <audio id="pad9Audio" preload="none">
+            <source src="sounds/jdopenhat380.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 middle-col bot-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/small-maracas-with-white-line-design.svg"/>
+        </div>
+        <audio id="pad10Audio" preload="none">
+            <source src="sounds/JDsnare2.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 middle-col bot-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/tambourine-side-view.svg"/>
+        </div>
+        <audio id="pad11Audio" preload="none">
+            <source src="sounds/JDsnare6.wav" type="audio/wav"/>
+        </audio>
+    </div>
+    <div class="col-3 right-col bot-col soundPad">
+        <div class="optionContainer collapsed">
+            <div class="menuField">
+                <svg class="optionIcon hidden" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	            width="51.238px" height="51.238px" viewBox="0 0 44.238 44.238" style="enable-background:new 0 0 44.238 44.238;"
+	            xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M22.119,44.237C9.922,44.237,0,34.315,0,22.12C0,9.924,9.922,0.001,22.119,0.001S44.238,9.923,44.238,22.12
+                            S34.314,44.237,22.119,44.237z M22.119,1.501C10.75,1.501,1.5,10.751,1.5,22.12s9.25,20.619,20.619,20.619
+                            s20.619-9.25,20.619-20.619S33.488,1.501,22.119,1.501z" fill="white" id="paths"/>
+                        <g>
+                            <path d="M31.432,23.206H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,23.206,31.432,23.206z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,17.17H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,17.17,31.432,17.17z" fill="white" id="paths"/>
+                        </g>
+                        <g>
+                            <path d="M31.432,29.254H12.805c-0.414,0-0.75-0.336-0.75-0.75s0.336-0.75,0.75-0.75h18.626c0.414,0,0.75,0.336,0.75,0.75
+                            S31.846,29.254,31.432,29.254z" fill="white" id="paths"/>
+                        </g>
+                        </g>
+                    </g>
+                </svg>
+                <p>Options</p>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="51.238px" height="51.238px" viewBox="0 0 241.557 241.557" style="enable-background:new 0 0 241.557 241.557;" xml:space="preserve">
+                    <g>
+                        <path d="M115.843,238.073c27.137-8.745,44.338-31.395,40.004-51.698c0.072-1.159-0.078-2.36-0.523-3.521L110.675,67.819   c7.073,0.251,19.395,2.292,36.933,10.983c29.163,14.475,41.828,35.843,41.828,35.843c8.275-24.125-19.304-51.693-38.598-60.649   c-13.473-6.255-40.7-19.41-55.923-26.792L86.411,5.283c-1.654-4.256-6.442-6.379-10.706-4.717   c-4.265,1.651-6.375,6.446-4.72,10.703l58.008,149.458c-11.102-3.147-24.384-3.003-37.668,1.285   c-28.451,9.165-46.034,33.637-39.263,54.639C58.837,237.659,87.397,247.255,115.843,238.073z" fill="#FFFFFF" id="paths"/>
+                    </g>
+                </svg>
+                <p>Change FX</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M479.942 64c0.020 0.017 0.041 0.038 0.058 0.058v383.885c-0.017 0.020-0.038 0.041-0.058 0.058h-447.885c-0.020-0.017-0.041-0.038-0.057-0.058v-383.886c0.017-0.020 0.038-0.041 0.057-0.057h447.885zM480 32h-448c-17.6 0-32 14.4-32 32v384c0 17.6 14.4 32 32 32h448c17.6 0 32-14.4 32-32v-384c0-17.6-14.4-32-32-32v0z" fill="white" id="paths"></path>
+                    <path d="M416 144c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48z" fill="white" id="paths"></path>
+                    <path d="M448 416h-384v-64l112-192 128 160h32l112-96z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Icon</p>
+                <input type="file" style="display: none"/>
+            </div>
+            <!--<div class="menuField">
+                <svg class="menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="51.238px" height="51.238px" viewBox="0 0 512 512">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path d="M512 288v-192h-96v-32c0-17.6-14.4-32-32-32h-352c-17.6 0-32 14.4-32 32v96c0 17.6 14.4 32 32 32h352c17.6 0 32-14.4 32-32v-32h64v128h-288v64h-16c-8.837 0-16 7.163-16 16v160c0 8.837 7.163 16 16 16h64c8.837 0 16-7.163 16-16v-160c0-8.837-7.163-16-16-16h-16v-32h288zM384 96h-352v-32h352v32z" fill="white" id="paths"></path>
+                </svg>
+                <p>Change Color</p>
+            </div>-->
+        </div>
+        <div class="optionContainer2 hidden"></div>
+        <div class="padIconContainer">
+            <img src="icons/violin-with-bow.svg" class="padIcon"/>
+        </div>
+        <audio id="pad12Audio" preload="none">
+            <source src="sounds/jdtams477.wav" type="audio/wav"/>
+        </audio>
+    </div>
+</div>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
